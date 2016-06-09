@@ -1,0 +1,24 @@
+{
+  "name": "othlo_hackathon",
+  "version": "1.0.0",
+  "description": "OthloTech主催のハッカソンのランディングページ",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "watch": "npm run watch-scss & npm run server",
+    "build-scss": "node-sass ./assets/scss --output ./assets/css",
+    "watch-scss": "node-sass ./assets/scss --output ./assets/css -w",
+    "server": "python -m SimpleHTTPServer 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OthloTech/OthloHackathon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OthloTech/OthloHackathon/issues"
+  },
+  "homepage": "https://github.com/OthloTech/OthloHackathon#readme"
+}
