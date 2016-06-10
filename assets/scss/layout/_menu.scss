@@ -81,7 +81,6 @@
                 letter-spacing: _font(kern-heading);
                 line-height: 1.85em;
                 padding: 0.75em 0;
-                text-transform: uppercase;
                 &:hover {
                     background: saturate(darken(_palette(accent), 3), 1.5);
                 }
