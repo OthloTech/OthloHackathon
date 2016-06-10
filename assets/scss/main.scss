@@ -3,7 +3,6 @@
 @import 'libs/mixins';
 @import 'libs/skel';
 @import 'font-awesome.min.css';
-@import url('https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic');
 
 /*
 	Solid State by HTML5 UP
@@ -32,12 +31,10 @@
 ));
 
 // Base.
-
 @import 'base/page';
 @import 'base/typography';
 
 // Component.
-
 @import 'components/section';
 @import 'components/form';
 @import 'components/box';
@@ -49,7 +46,6 @@
 @import 'components/features';
 
 // Layout.
-
 @import 'layout/header';
 @import 'layout/menu';
 @import 'layout/banner';
