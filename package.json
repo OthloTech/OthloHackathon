@@ -4,7 +4,9 @@
   "description": "OthloTech主催のハッカソンのランディングページ",
   "main": "index.js",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "node-sass": "^3.7.0"
+  },
   "scripts": {
     "watch": "npm run watch-scss & npm run server",
     "build": "node-sass ./assets/scss --output ./assets/css",
