@@ -2489,7 +2489,7 @@ body.is-menu-visible #menu {
     filter: blur(0);
     opacity: 1;
     border-bottom: solid 2px rgba(255, 255, 255, 0.125);
-    font-size: 2.25em;
+    font-size: 3.1em;
     margin-bottom: 0.8em;
     padding-bottom: 0.4em; }
   #banner p {
@@ -2538,7 +2538,8 @@ body.is-menu-visible #menu {
         #banner .logo .icon {
           font-size: 1.5em; }
       #banner h2 {
-        font-size: 1.5em; }
+        font-size: 2.5em;
+        letter-spacing: 0; }
       #banner p {
         font-size: 0.8em; } }
   body.is-loading #banner .logo {

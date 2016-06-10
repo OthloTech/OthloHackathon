@@ -36,7 +36,7 @@
         @include vendor('filter', 'blur(0)');
         opacity: 1;
         border-bottom: solid 2px _palette(border);
-        font-size: 2.25em;
+        font-size: 3.1em;
         margin-bottom: _size(element-margin) * 0.4;
         padding-bottom: _size(element-margin) * 0.2;
     }
@@ -81,7 +81,8 @@
             }
         }
         h2 {
-            font-size: 1.5em;
+            font-size: 2.5em;
+            letter-spacing: 0;
         }
         p {
             font-size: 0.8em;
