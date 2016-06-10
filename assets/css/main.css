@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url(font-awesome.min.css);
 /*
 	Solid State by HTML5 UP
 	html5up.net | @ajlkn
@@ -2156,13 +2155,6 @@ button,
   .button.disabled,
   .button:disabled {
     opacity: 0.25; }
-  @media screen and (max-width: 640px) {
-    input[type="submit"],
-    input[type="reset"],
-    input[type="button"],
-    button,
-    .button {
-      padding: 0; } }
 
 /* Features */
 .features {
