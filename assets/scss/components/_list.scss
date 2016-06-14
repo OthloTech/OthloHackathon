@@ -165,6 +165,28 @@ ul {
             }
         }
     }
+    &.sponsor {
+        list-style: none;
+        padding: 0;
+        font-size: 0;
+        li {
+            font-size: 1rem;
+            display: inline-block;
+            width: 24%;
+            min-height: 100px;
+            background-color: #fff;
+            margin-left: 1%;
+            vertical-align: middle;
+
+            &:first-child {
+                margin-left: 0;
+            }
+
+        }
+        .sponsor-img {
+            width: 100%;
+        }
+    }
 }
 
 dl {
