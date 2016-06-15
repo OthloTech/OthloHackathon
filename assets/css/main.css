@@ -1889,6 +1889,15 @@ ol {
   padding-left: 1.25em; }
   ol li {
     padding-left: 0.25em; }
+  ol.flow {
+    width: 100%;
+    list-style: none;
+    display: block; }
+    ol.flow li {
+      width: 24%;
+      display: inline-block; }
+      ol.flow li img {
+        width: 100%; }
 
 ul {
   list-style: disc;
@@ -2015,6 +2024,7 @@ ul {
       min-height: 100px;
       background-color: #fff;
       margin-left: 1%;
+      padding: 0;
       vertical-align: middle; }
       ul.sponsor li:first-child {
         margin-left: 0; }
@@ -2045,13 +2055,26 @@ table {
     table tbody tr:nth-child(2n + 1) {
       background-color: rgba(255, 255, 255, 0.025); }
   table td {
-    padding: 0.75em 0.75em; }
+    font-size: 0.9em;
+    padding: 0.75em; }
+    @media screen and (max-width: 736px) {
+      table td {
+        padding-top: 0;
+        display: list-item;
+        list-style: none;
+        padding-left: 1.5em; } }
   table th {
     color: #ffffff;
-    font-size: 0.9em;
+    font-size: 0.8em;
     font-weight: 600;
     padding: 0 0.75em 0.75em 0.75em;
-    text-align: left; }
+    text-align: left;
+    white-space: nowrap; }
+    @media screen and (max-width: 736px) {
+      table th {
+        padding: 0.75em;
+        display: list-item;
+        list-style: none; } }
   table thead {
     border-bottom: solid 2px rgba(255, 255, 255, 0.125); }
   table tfoot {

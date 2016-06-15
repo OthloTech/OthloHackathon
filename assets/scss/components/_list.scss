@@ -13,6 +13,18 @@ ol {
     li {
         padding-left: 0.25em;
     }
+    &.flow {
+        width: 100%;
+        list-style: none;
+        display: block;
+        li {
+            width: 24%;
+            display: inline-block;
+            img {
+                width: 100%;
+            }
+        }
+    }
 }
 
 ul {
@@ -176,6 +188,7 @@ ul {
             min-height: 100px;
             background-color: #fff;
             margin-left: 1%;
+            padding: 0;
             vertical-align: middle;
 
             &:first-child {
