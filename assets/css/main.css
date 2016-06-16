@@ -1983,12 +1983,18 @@ ul {
             padding-top: 0; } }
   ul.contact {
     list-style: none;
-    padding: 0; }
+    padding: 0;
+    margin: 0 auto;
+    position: absolute;
+    top: 8em;
+    right: 1em;
+    width: 200px; }
     ul.contact li {
       text-decoration: none;
       margin: 2.5em 0 0 0;
       padding: 0 0 0 3.25em;
-      position: relative; }
+      position: relative;
+      display: inline-block; }
       ul.contact li:before {
         -moz-osx-font-smoothing: grayscale;
         -webkit-font-smoothing: antialiased;
@@ -1998,7 +2004,6 @@ ul {
         text-transform: none !important; }
       ul.contact li:before {
         border-radius: 100%;
-        border: solid 2px rgba(255, 255, 255, 0.125);
         display: inline-block;
         font-size: 0.8em;
         height: 2.5em;
@@ -2853,7 +2858,7 @@ body.is-menu-visible #menu {
     margin: 0 3em 0 0;
     width: calc(50% - 1.5em); }
   #footer .inner .contact {
-    width: calc(50% - 1.5em); }
+    width: 200px; }
   #footer .inner .copyright {
     border-top: solid 2px rgba(255, 255, 255, 0.125);
     list-style: none;
