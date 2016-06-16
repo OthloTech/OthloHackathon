@@ -2055,7 +2055,8 @@ dl {
 
 table {
   margin: 0 0 2em 0;
-  width: 100%; }
+  width: 100%;
+  margin: 0; }
   table tbody tr {
     border: solid 1px rgba(255, 255, 255, 0.125);
     border-left: 0;
@@ -2930,3 +2931,13 @@ body.is-menu-visible #menu {
 @media screen and (max-width: 360px) {
   #footer .inner {
     padding: 2em 1.5em 0.1em 1.5em ; } }
+
+.style1 .gmap-frame {
+  position: relative;
+  left: 0;
+  right: 0;
+  margin-bottom: 3em; }
+  .style1 .gmap-frame > #gmap {
+    position: relative;
+    width: 100%;
+    height: 400px; }
