@@ -2026,18 +2026,20 @@ ul {
     ul.sponsor li {
       font-size: 1rem;
       display: inline-block;
-      height: 100px;
-      width: auto;
+      width: 260px;
+      height: auto;
       position: relative;
       background-color: #fff;
-      margin: 0 10px;
-      padding: 0;
+      margin: 10px;
+      padding: 5px;
       vertical-align: middle; }
-      ul.sponsor li:first-child {
-        margin-left: 0; }
+      @media screen and (max-width: 980px) {
+        ul.sponsor li {
+          width: 100%;
+          padding: 10px; } }
       ul.sponsor li > img {
-        height: 100px;
-        width: auto;
+        width: 100%;
+        height: auto;
         vertical-align: middle;
         text-align: center; }
 
