@@ -22,7 +22,8 @@
             width: calc(50% - #{_size(section-spacing, large) * 0.5});
         }
         .contact {
-            width: calc(50% - #{_size(section-spacing, large) * 0.5});
+            //width: calc(50% - #{_size(section-spacing, large) * 0.5});
+            width: 200px;
         }
         .copyright {
             border-top: solid 2px _palette(border);

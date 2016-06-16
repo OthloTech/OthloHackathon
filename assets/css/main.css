@@ -1983,12 +1983,18 @@ ul {
             padding-top: 0; } }
   ul.contact {
     list-style: none;
-    padding: 0; }
+    padding: 0;
+    margin: 0 auto;
+    position: absolute;
+    top: 8em;
+    right: 1em; }
     ul.contact li {
       text-decoration: none;
       margin: 2.5em 0 0 0;
       padding: 0 0 0 3.25em;
-      position: relative; }
+      position: relative;
+      width: 80px;
+      display: inline-block; }
       ul.contact li:before {
         -moz-osx-font-smoothing: grayscale;
         -webkit-font-smoothing: antialiased;
@@ -1998,7 +2004,6 @@ ul {
         text-transform: none !important; }
       ul.contact li:before {
         border-radius: 100%;
-        border: solid 2px rgba(255, 255, 255, 0.125);
         display: inline-block;
         font-size: 0.8em;
         height: 2.5em;
@@ -2050,7 +2055,8 @@ dl {
 
 table {
   margin: 0 0 2em 0;
-  width: 100%; }
+  width: 100%;
+  margin: 0; }
   table tbody tr {
     border: solid 1px rgba(255, 255, 255, 0.125);
     border-left: 0;
@@ -2115,7 +2121,7 @@ button,
   border-radius: 5px;
   border: 0;
   box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125);
-  color: #ffffff !important;
+  color: #ffffff;
   cursor: pointer;
   display: inline-block;
   font-family: "游ゴシック", "Yu Gothic", sans-serif;
@@ -2853,7 +2859,7 @@ body.is-menu-visible #menu {
     margin: 0 3em 0 0;
     width: calc(50% - 1.5em); }
   #footer .inner .contact {
-    width: calc(50% - 1.5em); }
+    width: 200px; }
   #footer .inner .copyright {
     border-top: solid 2px rgba(255, 255, 255, 0.125);
     list-style: none;
@@ -2925,3 +2931,39 @@ body.is-menu-visible #menu {
 @media screen and (max-width: 360px) {
   #footer .inner {
     padding: 2em 1.5em 0.1em 1.5em ; } }
+
+.style1 .gmap-frame {
+  position: relative;
+  left: 0;
+  right: 0;
+  margin-bottom: 3em; }
+  .style1 .gmap-frame > #gmap {
+    position: relative;
+    width: 100%;
+    height: 400px; }
+
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  margin: 0 auto; }
+  .button.apply-button {
+    color: white;
+    background: transparent;
+    border: 3px solid #28bbf8;
+    border-radius: 5px;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0); }
+    .button.apply-button:hover {
+      background: #28bbf8;
+      color: #212121;
+      border: 3px solid #28bbf8;
+      -webkit-transition: all .35s ease;
+      transition: all .35s ease; }
+    .button.apply-button:active {
+      -webkit-transform: translate(5px, 5px);
+      transform: translate(5px, 5px); }

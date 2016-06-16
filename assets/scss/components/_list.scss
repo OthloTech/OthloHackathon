@@ -149,14 +149,19 @@ ul {
     &.contact {
         list-style: none;
         padding: 0;
+        margin: 0 auto;
+        position: absolute;
+        top: 8em;
+        right: 1em;
         li {
             @include icon;
             margin: (_size(element-margin) * 1.25) 0 0 0;
             padding: 0 0 0 3.25em;
             position: relative;
+            width: 80px;
+            display: inline-block;
             &:before {
                 border-radius: 100%;
-                border: solid 2px _palette(border);
                 display: inline-block;
                 font-size: 0.8em;
                 height: 2.5em;

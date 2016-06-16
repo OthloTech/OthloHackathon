@@ -163,4 +163,45 @@
 
 	});
 
+	// Google Mapsの設定
+	function initGmap() {
+		var latlng = new google.maps.LatLng(35.1879723,136.9437694);
+		var options = {
+			zoom: 15,
+			center: latlng,
+			mapTypeControl: false,
+			streetViewControl: false,
+			scrollwheel: false,
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+		};
+		var map = new google.maps.Map($('#gmap').get(0), options);
+		var style = [{"featureType":"administrative","elementType":"all","stylers":[{"visibility":"on"},{"saturation":-100},{"lightness":20}]},{"featureType":"road","elementType":"all","stylers":[{"visibility":"on"},{"saturation":-100},{"lightness":40}]},{"featureType":"water","elementType":"all","stylers":[{"visibility":"on"},{"saturation":-10},{"lightness":30}]},{"featureType":"landscape.man_made","elementType":"all","stylers":[{"visibility":"simplified"},{"saturation":-60},{"lightness":10}]},{"featureType":"landscape.natural","elementType":"all","stylers":[{"visibility":"simplified"},{"saturation":-60},{"lightness":60}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"},{"saturation":-100},{"lightness":60}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"},{"saturation":-100},{"lightness":60}]}];
+		var styleType = new google.maps.StyledMapType(style, { name: 'OthloHack' });
+		map.mapTypes.set('OthloHack', styleType);
+		map.setMapTypeId('OthloHack');
+
+		var icon = new google.maps.MarkerImage('../../images/marker.png',
+			new google.maps.Size(48, 48),
+			new google.maps.Point(0, 0)
+		);
+		var markerOpts = {
+			position: latlng,
+			map: map,
+			icon: icon,
+			title: 'OthloHack 会場'
+		};
+		var marker = new google.maps.Marker(markerOpts);
+
+		mapSizeInit();
+	}
+
+	function mapSizeInit() {
+		var width = $('#gmap').width();
+		var margin = ($(window).width() - width) / 2;
+		$('#gmap').css('width', $(window).width()).css('right', margin);	
+	}
+
+	initGmap();
+
+
 })(jQuery);
