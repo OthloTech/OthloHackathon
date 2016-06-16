@@ -2015,6 +2015,11 @@ ul {
         width: 2.5em; }
       ul.contact li:first-child {
         margin-top: 0; }
+    @media screen and (max-width: 980px) {
+      ul.contact {
+        margin-bottom: 30px;
+        top: 10em;
+        margin: 0 auto; } }
     @media screen and (max-width: 736px) {
       ul.contact li {
         margin: 1.5em 0 0 0; } }

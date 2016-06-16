@@ -176,6 +176,11 @@ ul {
                 margin-top: 0;
             }
         }
+        @include breakpoint(medium) {
+            margin-bottom: 30px;
+            top: 10em;
+            margin: 0 auto;
+        }
         @include breakpoint(small) {
             li {
                 margin: (_size(element-margin) * 0.75) 0 0 0;
