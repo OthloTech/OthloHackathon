@@ -2021,23 +2021,25 @@ ul {
   ul.sponsor {
     list-style: none;
     padding: 0;
-    font-size: 0; }
+    font-size: 0;
+    padding: 20px; }
     ul.sponsor li {
       font-size: 1rem;
       display: inline-block;
-      width: 24%;
-      min-height: 100px;
+      height: 100px;
+      width: auto;
+      position: relative;
       background-color: #fff;
-      margin-left: 1%;
+      margin: 0 10px;
       padding: 0;
       vertical-align: middle; }
       ul.sponsor li:first-child {
         margin-left: 0; }
-    ul.sponsor .sponsor-img {
-      width: 100%;
-      color: #222;
-      vertical-align: middle;
-      text-align: center; }
+      ul.sponsor li > img {
+        height: 100px;
+        width: auto;
+        vertical-align: middle;
+        text-align: center; }
 
 dl {
   margin: 0 0 2em 0; }
