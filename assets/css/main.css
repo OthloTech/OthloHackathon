@@ -2962,7 +2962,8 @@ body.is-menu-visible #menu {
   position: relative;
   left: 0;
   right: 0;
-  margin-bottom: 3em; }
+  margin-bottom: 1em;
+  z-index: 10; }
   .style1 .gmap-frame > #gmap {
     position: relative;
     width: 100%;
