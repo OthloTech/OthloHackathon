@@ -2106,6 +2106,18 @@ table {
       border-bottom: 0; }
     table.alt tfoot {
       border-top: 0; }
+  @media screen and (max-width: 980px) {
+    table {
+      max-width: 100%; }
+      table td {
+        display: block;
+        text-align: left; }
+      table th {
+        display: block;
+        border-top: none;
+        border-bottom: none;
+        width: 100%;
+        text-align: left; } }
 
 /* Button */
 input[type="submit"],
