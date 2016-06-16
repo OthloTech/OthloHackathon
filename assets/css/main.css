@@ -1987,13 +1987,13 @@ ul {
     margin: 0 auto;
     position: absolute;
     top: 8em;
-    right: 1em;
-    width: 200px; }
+    right: 1em; }
     ul.contact li {
       text-decoration: none;
       margin: 2.5em 0 0 0;
       padding: 0 0 0 3.25em;
       position: relative;
+      width: 80px;
       display: inline-block; }
       ul.contact li:before {
         -moz-osx-font-smoothing: grayscale;

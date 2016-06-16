@@ -153,12 +153,12 @@ ul {
         position: absolute;
         top: 8em;
         right: 1em;
-        width: 200px;
         li {
             @include icon;
             margin: (_size(element-margin) * 1.25) 0 0 0;
             padding: 0 0 0 3.25em;
             position: relative;
+            width: 80px;
             display: inline-block;
             &:before {
                 border-radius: 100%;
