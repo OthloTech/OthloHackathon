@@ -80,4 +80,18 @@ table {
             border-top: 0;
         }
     }
+    @include breakpoint(medium) {
+        max-width: 100%;
+        td {
+            display: block;
+            text-align: left;        
+        }
+        th {
+            display: block;
+            border-top: none;
+            border-bottom: none;
+            width: 100%;   
+            text-align: left;  
+        }
+    }
 }

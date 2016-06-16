@@ -1,10 +1,10 @@
 // 後から加える独自スタイル
-
-.style1 .gmap-frame {
+.gmap-frame {
 	position: relative;
 	left: 0;
 	right: 0;
-	margin-bottom: 3em;
+	margin-bottom: 1em;
+    z-index: 10;
 	& > #gmap {
 		position: relative;
 		width: 100%;
