@@ -9,4 +9,4 @@
 
 
 ## サイトイメージ
-![othlohack](https://raw.github.com/wiki/OthloTech/OthloHackathon/othlohack.png)
+![othlohack](https://raw.githubusercontent.com/OthloTech/OthloHackathon/master/othlohack.png)
