@@ -2029,7 +2029,10 @@ ul {
       ul.sponsor li:first-child {
         margin-left: 0; }
     ul.sponsor .sponsor-img {
-      width: 100%; }
+      width: 100%;
+      color: #222;
+      vertical-align: middle;
+      text-align: center; }
 
 dl {
   margin: 0 0 2em 0; }
@@ -2250,6 +2253,13 @@ button,
       .features article {
         width: 100%;
         margin: 0 0 2em 0 !important; } }
+
+/* iframe */
+.access-map {
+  width: 100%; }
+  .access-map iframe {
+    display: block;
+    margin: 0 auto; }
 
 /* Header */
 #header {
