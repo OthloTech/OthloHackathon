@@ -169,6 +169,9 @@
 		var options = {
 			zoom: 15,
 			center: latlng,
+			mapTypeControl: false,
+			streetViewControl: false,
+			scrollwheel: false,
 			mapTypeId: google.maps.MapTypeId.ROADMAP
 		};
 		var map = new google.maps.Map(document.getElementById('gmap'), options);
