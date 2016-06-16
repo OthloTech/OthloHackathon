@@ -2121,7 +2121,7 @@ button,
   border-radius: 5px;
   border: 0;
   box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125);
-  color: #ffffff !important;
+  color: #ffffff;
   cursor: pointer;
   display: inline-block;
   font-family: "游ゴシック", "Yu Gothic", sans-serif;
@@ -2941,3 +2941,29 @@ body.is-menu-visible #menu {
     position: relative;
     width: 100%;
     height: 400px; }
+
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  margin: 0 auto; }
+  .button.apply-button {
+    color: white;
+    background: transparent;
+    border: 3px solid #28bbf8;
+    border-radius: 5px;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0); }
+    .button.apply-button:hover {
+      background: #28bbf8;
+      color: #212121;
+      border: 3px solid #28bbf8;
+      -webkit-transition: all .35s ease;
+      transition: all .35s ease; }
+    .button.apply-button:active {
+      -webkit-transform: translate(5px, 5px);
+      transform: translate(5px, 5px); }

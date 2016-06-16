@@ -11,3 +11,38 @@
 		height: 400px;
 	}
 }
+
+$apply-button-color: #28bbf8;
+
+
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    margin: 0 auto;
+    &.apply-button {
+        color: white;
+        background: transparent;
+        border: 3px solid $apply-button-color;
+        border-radius: 5px;
+        -webkit-transition: all .5s ease;
+        transition: all .5s ease;
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+
+        &:hover {
+            background: $apply-button-color;
+            color: #212121;
+            border: 3px solid $apply-button-color;
+            -webkit-transition: all .35s ease;
+            transition: all .35s ease;
+        }
+
+        &:active {
+        	-webkit-transform: translate(5px, 5px);
+        	transform: translate(5px, 5px);
+        }
+    }
+}
