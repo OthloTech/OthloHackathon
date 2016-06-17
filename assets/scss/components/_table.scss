@@ -54,6 +54,10 @@ table {
     tfoot {
         border-top: solid 2px _palette(border);
     }
+    &.schedule {
+      display: inline-block;
+      width: 45%; /* ごめん適当... */
+    }
     &.alt {
         border-collapse: separate;
         tbody {
@@ -84,14 +88,14 @@ table {
         max-width: 100%;
         td {
             display: block;
-            text-align: left;        
+            text-align: left;
         }
         th {
             display: block;
             border-top: none;
             border-bottom: none;
-            width: 100%;   
-            text-align: left;  
+            width: 100%;
+            text-align: left;
         }
     }
 }
