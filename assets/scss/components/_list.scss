@@ -17,9 +17,11 @@ ol {
         width: 100%;
         list-style: none;
         display: block;
+        font-size: 0;
         li {
             width: 24%;
             display: inline-block;
+            font-size: 1rem;
             img {
                 width: 100%;
             }
