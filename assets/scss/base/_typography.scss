@@ -37,6 +37,12 @@ a {
     border-bottom: dotted 1px _palette(fg-light);
     color: _palette(fg-bold);
     text-decoration: none;
+    &.blank:before {
+        content: url('../../images/a_blank.png');
+        width: 18px;
+        height: 18px;
+        display: inline-block;
+    }
     &:hover {
         border-bottom-color: transparent;
         color: _palette(fg-bold) !important;
