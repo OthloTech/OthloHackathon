@@ -12,23 +12,23 @@ select,
 textarea {
     color: _palette(fg);
     font-family: _font(family);
-    font-size: 16.5pt;
+    font-size: 15.5pt;
     font-weight: _font(weight);
     line-height: 1.65;
     @include breakpoint(xlarge) {
-        font-size: 13pt;
+        font-size: 12pt;
     }
     @include breakpoint(large) {
-        font-size: 12pt;
+        font-size: 11pt;
     }
     @include breakpoint(medium) {
-        font-size: 12pt;
+        font-size: 11pt;
     }
     @include breakpoint(small) {
-        font-size: 12pt;
+        font-size: 11pt;
     }
     @include breakpoint(xsmall) {
-        font-size: 12pt;
+        font-size: 11pt;
     }
 }
 
@@ -91,6 +91,7 @@ i {
 
 p {
     margin: 0 0 _size(element-margin) 0;
+    text-align: justify;
 }
 
 h1,
