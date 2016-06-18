@@ -12,7 +12,9 @@
 	}
 }
 
-$apply-button-color: #28bbf8;
+// $apply-button-bg-color: #28bbf8;
+$apply-button-bg-color: #ffffff;
+$apply-button-font-color: #4160a2;
 
 
 .button {
@@ -22,22 +24,39 @@ $apply-button-color: #28bbf8;
     justify-content: center;
     /* width: 200px;*/
     margin: 0 auto;
+    font-size: 1em;
+    &:after {
+        display: inline-block;
+        vertical-align: inherit;
+        content: '';
+        width: .8em;
+        height: .8em;
+        margin-left: 30px;
+        border-right: 4px solid $apply-button-bg-color;
+        border-top: 4px solid $apply-button-bg-color;
+        transform: rotate(45deg);
+        -webkit-transition: all .35s ease;
+        transition: all .35s ease;
+    }
     &.apply-button {
-        color: white;
+        color: $apply-button-bg-color;
         background: transparent;
-        border: 3px solid $apply-button-color;
+        border: 2px solid $apply-button-bg-color;
         border-radius: 5px;
         -webkit-transition: all .5s ease;
         transition: all .5s ease;
-        -webkit-transform: translate(0, 0);
-        transform: translate(0, 0);
 		display: inline-block;
         &:hover {
-            background: $apply-button-color;
-            color: #212121;
-            border: 3px solid $apply-button-color;
+            background: rgba($apply-button-bg-color, .5);
+            color: $apply-button-font-color !important;
+            border: 2px solid $apply-button-bg-color;
             -webkit-transition: all .35s ease;
             transition: all .35s ease;
+            &:after {
+                border-right-color: $apply-button-font-color;
+                border-top-color: $apply-button-font-color;
+                transform: translateX(5px) rotate(45deg);
+            }
         }
 
         &:active {
