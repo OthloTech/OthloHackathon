@@ -14,7 +14,8 @@ textarea {
     font-family: _font(family);
     font-size: 15.5pt;
     font-weight: _font(weight);
-    line-height: 1.65;
+    line-height: 1.8;
+    letter-spacing: .06em;
     @include breakpoint(xlarge) {
         font-size: 12pt;
     }
