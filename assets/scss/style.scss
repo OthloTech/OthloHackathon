@@ -47,7 +47,12 @@ $apply-button-color: #28bbf8;
     }
 }
 
-.contact {
+ul.copyright {
+    margin-bottom: 0px;
+}
+
+ul.contact {
+    text-align: center;
     .sns-button {
         img {
             max-width: 40px;
