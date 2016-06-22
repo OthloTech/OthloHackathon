@@ -54,10 +54,6 @@ table {
     tfoot {
         border-top: solid 2px _palette(border);
     }
-    &.schedule {
-      display: inline-block;
-      width: 45%; /* ごめん適当... */
-    }
     &.alt {
         border-collapse: separate;
         tbody {
