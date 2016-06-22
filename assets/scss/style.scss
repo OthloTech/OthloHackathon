@@ -128,3 +128,14 @@ ul {
         }
     }
 }
+
+#schedule {
+	width: 100%;
+	td {
+		width: 100%;
+	}
+	table {
+		display: inline-block;
+		width: 49%; /* ごめん適当... */
+	}
+}
