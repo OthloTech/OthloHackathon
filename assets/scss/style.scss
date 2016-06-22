@@ -128,3 +128,45 @@ ul {
         }
     }
 }
+
+#atend {
+    position: fixed;
+    top: 100px;
+    right: 0;
+    background: #eee;
+    z-index: 999;
+    border: 1px solid #ccc;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    h2, h3, h4 {
+        color: #333;
+        font-family: 'Roboto';
+        margin: 0;
+        padding: 0;
+    }
+    h2 {
+        font-weight: bold;
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .apply-button {
+        border-color: #90CAF9;
+        color: #333;
+        border-radius: 0px;
+        &:hover {
+            background: rgba(#90CAF9, .2);
+            border: 2px solid #90CAF9;
+            color: #333;
+        }
+        &.button:after {
+            border-color: #333;
+        }
+    }
+}
