@@ -23,14 +23,14 @@
 			$header = $('#header'),
 			$banner = $('#banner');
 
-		// Disable animations/transitions until the page has loaded.
-			$body.addClass('is-loading');
-
-			$window.on('load', function() {
-				window.setTimeout(function() {
-					$body.removeClass('is-loading');
-				}, 100);
-			});
+		// // Disable animations/transitions until the page has loaded.
+		// 	$body.addClass('is-loading');
+		//
+		// 	$window.on('load', function() {
+		// 		window.setTimeout(function() {
+		// 			$body.removeClass('is-loading');
+		// 		}, 100);
+		// 	});
 
 		// Fix: Placeholder polyfill.
 			$('form').placeholder();
@@ -198,7 +198,7 @@
 	function mapSizeInit() {
 		var width = $('#gmap').width();
 		var margin = ($(window).width() - width) / 2;
-		$('#gmap').css('width', $(window).width()).css('right', margin);	
+		$('#gmap').css('width', $(window).width()).css('right', margin);
 	}
 
 	initGmap();
