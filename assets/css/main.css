@@ -3121,7 +3121,7 @@ ul.sns {
   color: #333;
   text-align: center;
   padding: 10px; }
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 435px) {
     #atend {
       display: none; } }
   #atend h2, #atend h3, #atend h4 {
