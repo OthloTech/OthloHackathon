@@ -1,0 +1,185 @@
+.gmap-frame {
+  position: relative;
+  left: 0;
+  right: 0;
+  margin-bottom: 1em;
+  z-index: 10; }
+  .gmap-frame > #gmap {
+    position: relative;
+    width: 100%;
+    height: 400px; }
+
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* width: 200px;*/
+  margin: 0 auto;
+  font-size: 1em; }
+  .button:after {
+    display: inline-block;
+    vertical-align: inherit;
+    content: '';
+    width: .8em;
+    height: .8em;
+    margin-left: 30px;
+    border-right: 4px solid #ffffff;
+    border-top: 4px solid #ffffff;
+    transform: rotate(45deg);
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease; }
+  .button.apply-button {
+    color: #ffffff;
+    background: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+    display: inline-block; }
+    .button.apply-button:hover {
+      background: rgba(255, 255, 255, 0.2);
+      border: 2px solid #ffffff;
+      -webkit-transition: all .2s ease;
+      transition: all .2s ease; }
+      .button.apply-button:hover:after {
+        transform: translateX(5px) rotate(45deg); }
+    .button.apply-button:active {
+      -webkit-transform: translate(5px, 5px);
+      transform: translate(5px, 5px); }
+
+ul.copyright {
+  margin-bottom: 0;
+  margin-top: 0 !important;
+  padding-top: 10px !important; }
+
+ul.sns {
+  margin-bottom: 0;
+  text-align: right;
+  list-style: none; }
+  ul.sns .sns-button {
+    display: inline-block;
+    vertical-align: baseline;
+    padding: 10px; }
+    ul.sns .sns-button a {
+      border: 0; }
+      ul.sns .sns-button a:hover {
+        opacity: .9; }
+    ul.sns .sns-button img {
+      max-width: 32px;
+      max-height: 32px; }
+
+.overview {
+  padding-top: 70px;
+  overflow: hidden; }
+  .overview > ul {
+    text-align: center;
+    width: 100%;
+    padding: 0; }
+    .overview > ul > li {
+      display: inline-block;
+      vertical-align: middle;
+      min-width: 190px;
+      width: 30%;
+      padding: 0; }
+      .overview > ul > li > h2 {
+        font-size: 18px;
+        margin-bottom: 35px;
+        letter-spacing: 0.6em;
+        text-align: center;
+        color: #029cff;
+        font-weight: bold;
+        padding: 3px 0;
+        min-height: 1.5em; }
+      .overview > ul > li > h3 {
+        position: relative;
+        top: -0.25em;
+        font-size: 24px;
+        height: 75px;
+        display: table;
+        line-height: 1.5;
+        min-width: 100%; }
+
+#schedule {
+  width: 850px;
+  overflow: hidden;
+  margin: 0 auto; }
+  #schedule h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 30px; }
+  #schedule .day {
+    width: 420px;
+    display: inline-block;
+    padding: 10px;
+    margin: 0; }
+    #schedule .day dl {
+      overflow: hidden;
+      margin-bottom: 0.8em;
+      position: relative; }
+      #schedule .day dl dt {
+        position: absolute;
+        width: 50px;
+        left: 0;
+        text-align: right;
+        margin-right: 1em;
+        height: 100%; }
+      #schedule .day dl dd {
+        width: 100%;
+        padding-left: 60px;
+        height: 100%; }
+    #schedule .day.one-day {
+      border-right: 2px inset #ccc; }
+  @media screen and (max-width: 800px) {
+    #schedule {
+      width: 100%; }
+      #schedule .day {
+        width: 100%; }
+        #schedule .day.one-day {
+          border-right: none; } }
+
+#atend {
+  position: fixed;
+  top: 100px;
+  right: 0;
+  background: #eee;
+  z-index: 999;
+  border: 1px solid #ccc;
+  color: #333;
+  text-align: center;
+  padding: 10px; }
+  @media screen and (max-width: 435px) {
+    #atend {
+      display: none; } }
+  #atend h2, #atend h3, #atend h4 {
+    color: #333;
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0; }
+  #atend h2 {
+    font-weight: bold;
+    font-size: 24px; }
+  #atend h3 {
+    font-size: 20px; }
+  #atend h4 {
+    font-size: 16px;
+    margin-bottom: 10px; }
+  #atend .apply-button {
+    border-color: #90CAF9;
+    color: #333;
+    border-radius: 0px; }
+    #atend .apply-button:hover {
+      background: rgba(144, 202, 249, 0.2);
+      border: 2px solid #90CAF9;
+      color: #333; }
+    #atend .apply-button.button:after {
+      border-color: #333; }
+
+.contact-button {
+  margin-bottom: 30px;
+  border: 1px solid #ccc;
+  padding: 10px; }
+  .contact-button:hover, .contact-button:active {
+    opacity: 0.8;
+    border: 1px solid #ccc; }
