@@ -1,0 +1,46 @@
+.gmap-frame {
+  position: relative;
+  left: 0;
+  right: 0;
+  margin-bottom: 1em;
+  z-index: 10; }
+  .gmap-frame > #gmap {
+    position: relative;
+    width: 100%;
+    height: 400px; }
+
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* width: 200px;*/
+  margin: 0 auto; }
+  .button.apply-button {
+    color: white;
+    background: transparent;
+    border: 3px solid #28bbf8;
+    border-radius: 5px;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    display: inline-block; }
+    .button.apply-button:hover {
+      background: #28bbf8;
+      color: #212121;
+      border: 3px solid #28bbf8;
+      -webkit-transition: all .35s ease;
+      transition: all .35s ease; }
+    .button.apply-button:active {
+      -webkit-transform: translate(5px, 5px);
+      transform: translate(5px, 5px); }
+
+ul.copyright {
+  margin-bottom: 0px; }
+
+ul.contact {
+  text-align: center; }
+  ul.contact .sns-button img {
+    max-width: 40px;
+    max-height: 40px; }
