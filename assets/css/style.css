@@ -206,3 +206,6 @@ b.red {
         width: 100%;
         height: 100%;
         border-radius: 5px; }
+      @media screen and (max-width: 800px) {
+        .venues ul li {
+          width: 50%; } }

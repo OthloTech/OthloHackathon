@@ -256,6 +256,9 @@ b.red {
                 height: 100%;
                 border-radius: 5px;
             }
+            @media screen and (max-width: 800px) {
+                width: 50%;
+            }
         }
     }
 }
