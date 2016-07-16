@@ -183,3 +183,6 @@ ul.sns {
   .contact-button:hover, .contact-button:active {
     opacity: 0.8;
     border: 1px solid #ccc; }
+
+b.red {
+  color: red; }

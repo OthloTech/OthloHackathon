@@ -3153,6 +3153,9 @@ ul.sns {
     opacity: 0.8;
     border: 1px solid #ccc; }
 
+b.red {
+  color: red; }
+
 /* アイコンフォント読み込み */
 /* fontawesome */
 [class*="fontawesome-"]:before {
