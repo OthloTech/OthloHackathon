@@ -2040,8 +2040,8 @@ ul {
     ul.sponsor li {
       font-size: 1rem;
       display: inline-block;
-      width: 260px;
-      height: auto;
+      height: 200px;
+      width: auto;
       position: relative;
       background-color: #fff;
       margin: 10px;
@@ -2052,8 +2052,8 @@ ul {
           width: 100%;
           padding: 10px; } }
       ul.sponsor li > img {
-        width: 100%;
-        height: auto;
+        width: auto;
+        height: 100%;
         vertical-align: middle;
         text-align: center; }
 
