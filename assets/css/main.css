@@ -2040,8 +2040,8 @@ ul {
     ul.sponsor li {
       font-size: 1rem;
       display: inline-block;
-      width: 260px;
-      height: auto;
+      height: 200px;
+      width: auto;
       position: relative;
       background-color: #fff;
       margin: 10px;
@@ -2052,8 +2052,8 @@ ul {
           width: 100%;
           padding: 10px; } }
       ul.sponsor li > img {
-        width: 100%;
-        height: auto;
+        width: auto;
+        height: 100%;
         vertical-align: middle;
         text-align: center; }
 
@@ -2971,7 +2971,7 @@ body.is-menu-visible #menu {
   position: relative;
   left: 0;
   right: 0;
-  margin-bottom: 1em;
+  margin-bottom: 0;
   z-index: 10; }
   .gmap-frame > #gmap {
     position: relative;
@@ -3155,6 +3155,32 @@ ul.sns {
   .contact-button:hover, .contact-button:active {
     opacity: 0.8;
     border: 1px solid #ccc; }
+
+b.red {
+  color: #e53935; }
+
+.venues {
+  position: relative;
+  width: 100%; }
+  .venues ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative; }
+    .venues ul li {
+      display: inline-block;
+      width: 25%;
+      height: auto;
+      padding: 5px;
+      margin: 0;
+      position: relative; }
+      .venues ul li img {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px; }
+      @media screen and (max-width: 800px) {
+        .venues ul li {
+          width: 50%; } }
 
 /* アイコンフォント読み込み */
 /* fontawesome */

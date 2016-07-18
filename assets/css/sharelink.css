@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/* アイコンフォント読み込み */
+@import url(http://weloveiconfonts.com/api/?family=fontawesome|zocial);
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif; }
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif; }
+
+/* シェア */
+#share ul {
+  margin: 0 auto;
+  list-style-type: none; }
+
+#share li {
+  float: left;
+  width: 23%;
+  margin: 0 2% 2% 0; }
+
+#share li a {
+  position: relative;
+  display: block;
+  padding: 1em 0;
+  color: #fff;
+  font-size: 88%;
+  border-radius: 3px;
+  text-align: center;
+  line-height: 22px;
+  text-decoration: none;
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3); }
+
+#share li a:hover {
+  -webkit-transform: translate3d(0px, 5px, 1px);
+  -moz-transform: translate3d(0px, 5px, 1px);
+  transform: translate3d(0px, 5px, 1px);
+  box-shadow: none; }
+
+/* ツイッター */
+#share .twitter a {
+  background: #00acee;
+  box-shadow: 0 5px 0 #0092ca; }
+
+#share .twitter a:hover {
+  background: #0092ca; }
+
+/* Facebook */
+#share .facebook a {
+  background: #3b5998;
+  box-shadow: 0 5px 0 #2c4373; }
+
+#share .facebook a:hover {
+  background: #2c4373; }
+
+/* グーグル */
+#share .googleplus a {
+  background: #db4a39;
+  box-shadow: 0 5px 0 #ad3a2d; }
+
+#share .googleplus a:hover {
+  background: #ad3a2d; }
+
+/* Pocket */
+#share .pocket a {
+  background: #f03e51;
+  box-shadow: 0 5px 0 #c0392b; }
+
+#share .pocket a:hover {
+  background: #c0392b; }
+
+/* はてぶ */
+#share .hatebu {
+  margin-right: 0; }
+
+#share .hatebu a {
+  background: #5d8ac1;
+  box-shadow: 0 5px 0 #43638b; }
+
+#share .hatebu a:hover {
+  background: #43638b; }
+
+/* RSS */
+#share .rss a {
+  background: #e09900;
+  box-shadow: 0 5px 0 #ee802f; }
+
+#share .rss a:hover {
+  background: #ee802f; }
+
+/* Feedly */
+#share .feedly a {
+  background: #87c040;
+  box-shadow: 0 5px 0 #74a436; }
+
+#share .feedly a:hover {
+  background: #74a436; }
+
+#share li a i,
+#share .feedly img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  vettical-align: top; }
+
+/* clearfix */
+.clearfix:after,
+.fixed:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden; }
+
+.clearfix, .fixed {
+  min-height: 1px; }
+
+* html .clearfix,
+* html .fixed {
+  height: 1px;
+  /*¥*/
+  /*/
+    height: auto;
+    overflow: hidden;
+    /**/ }
+
+/* スマホ向け */
+@media screen and (max-width: 479px) {
+  #share li {
+    float: left;
+    width: 45%;
+    margin: 0 4% 5% 0; }
+  #share li:nth-child(4n) {
+    margin-right: 0; }
+  /* スマホ向けここまで */ }

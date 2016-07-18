@@ -201,7 +201,13 @@
 		$('#gmap').css('width', $(window).width()).css('right', margin);
 	}
 
-	initGmap();
+	function sizeInit() {
+		var width = $('.venues').width();
+		var margin = ($(window).width() - width) / 2;
+		$('.venues').css('width', $(window).width()).css('right', margin);
+	}
 
+	initGmap();
+	sizeInit();
 
 })(jQuery);
