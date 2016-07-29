@@ -3048,6 +3048,8 @@ ul.sns {
     .overview > ul > li {
       display: inline-block;
       vertical-align: middle;
+      min-width: 200px;
+      width: 20%;
       min-width: 190px;
       width: 30%;
       padding: 0; }
@@ -3086,6 +3088,7 @@ ul.sns {
     #schedule .day dl {
       overflow: hidden;
       margin-bottom: 0.8em;
+      line-height: 1.3;
       position: relative; }
       #schedule .day dl dt {
         position: absolute;
