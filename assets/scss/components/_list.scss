@@ -204,8 +204,16 @@ ul {
             padding: 15px;
             vertical-align: middle;
             @include breakpoint(medium) {
-                width: 100%;
+                width: 45%;
+                height: 260px;
                 padding: 10px;
+                margin: 0;
+            }
+            @include breakpoint(small) {
+                width: 90%;
+                margin: 0 auto;
+                padding: 10px;
+                height: 260px;
             }
             & > img {
                 width: 100%;
