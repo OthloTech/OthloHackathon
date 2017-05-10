@@ -1,16 +1,16 @@
 /* アイコンフォント読み込み */
 @import url(http://weloveiconfonts.com/api/?family=fontawesome|zocial);
- 
+
 /* fontawesome */
 [class*="fontawesome-"]:before {
   font-family: 'FontAwesome', sans-serif;
 }
- 
+
 /* zocial */
 [class*="zocial-"]:before {
   font-family: 'zocial', sans-serif;
 }
- 
+
 /* シェア */
 #share ul {
     margin:0 auto;
@@ -39,7 +39,7 @@
     transform: translate3d(0px, 5px, 1px);
     box-shadow:none;
 }
- 
+
 /* ツイッター */
 #share .twitter a {
     background:#00acee;
@@ -48,7 +48,7 @@
 #share .twitter a:hover {
     background:#0092ca;
 }
- 
+
 /* Facebook */
 #share .facebook a {
     background:#3b5998;
@@ -57,7 +57,7 @@
 #share .facebook a:hover {
     background:#2c4373;
 }
- 
+
 /* グーグル */
 #share .googleplus a {
     background:#db4a39;
@@ -66,7 +66,7 @@
 #share .googleplus a:hover {
     background:#ad3a2d;
 }
- 
+
 /* Pocket */
 #share .pocket a {
     background:#f03e51;
@@ -75,7 +75,7 @@
 #share .pocket a:hover {
     background:#c0392b;
 }
- 
+
 /* はてぶ */
 #share .hatebu {
     margin-right:0;
@@ -87,7 +87,7 @@
 #share .hatebu a:hover {
     background:#43638b;
 }
- 
+
 /* RSS */
 #share .rss a {
     background:#e09900;
@@ -96,7 +96,7 @@
 #share .rss a:hover {
     background:#ee802f;
 }
- 
+
 /* Feedly */
 #share .feedly a {
     background:#87c040;
@@ -112,21 +112,21 @@
     margin-right:5px;
     vettical-align:top;
 }
- 
+
 /* clearfix */
 .clearfix:after,
 .fixed:after  {
-    content: "."; 
+    content: ".";
     display: block;
     clear: both;
     height: 0;
     visibility: hidden;
 }
- 
+
 .clearfix, .fixed {
     min-height: 1px;
 }
- 
+
 * html .clearfix,
 * html .fixed {
     height: 1px;
@@ -135,15 +135,15 @@
     overflow: hidden;
     /**/
 }
- 
+
 /* スマホ向け */
 @media screen and (max-width: 479px) {
-#share li {
-    float:left;
-    width:45%;
-    margin:0 4% 5% 0;
-}
-#share li:nth-child(4n) {
-    margin-right:0;
-}
+  #share li {
+      float:left;
+      width:45%;
+      margin:0 4% 5% 0;
+  }
+  #share li:nth-child(4n) {
+      margin-right:0;
+  }
 /* スマホ向けここまで */ }

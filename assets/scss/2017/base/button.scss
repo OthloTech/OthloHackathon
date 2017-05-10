@@ -1,0 +1,62 @@
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button,
+.button {
+  @include vendor('transition', 'all .25s ease-in-out');
+  display: inline-block;
+  background: #444;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.25em;
+  text-decoration: none;
+  border-radius: 0.35em;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #f98780;
+  }
+
+  &.style1 {
+    background: #e97770 url('images/overlay.png');
+    color: #fff;
+
+    &:hover {
+      background-color: #f98780;
+    }
+
+    &:active {
+      background-color: #d96760;
+    }
+  }
+
+  &.style2 {
+    background: none;
+    color: #606167;
+    box-shadow: inset 0px 0px 2px 0px #a0a1a7;
+
+    &:hover {
+      box-shadow: inset 0px 0px 2px 0px #606167;
+    }
+
+    &:active {
+      box-shadow: inset 0px 0px 2px 0px #202127;
+    }
+  }
+
+  &.style3 {
+    background: #2f333b url('images/overlay.png');
+    color: #fff;
+
+    &:hover {
+      background-color: #3f434b;
+    }
+
+    &:active {
+      background-color: #1f232b;
+    }
+  }
+}

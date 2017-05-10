@@ -27,43 +27,55 @@
 	)
 ));
 
+@include skel-breakpoints((
+	desktop: '(min-width: 737px)',
+	tablet: '(min-width: 737px) and (max-width: 1200px)',
+	mobile: '(max-width: 736px)'
+));
+
+@include skel-layout((
+	reset: 'full',
+	boxModel: 'border',
+	grid: true,
+	conditionals: true,
+	containers: true,
+	breakpoints: (
+		desktop: (
+			containers: 1200px,
+			grid: ( gutters: (50px, 50px) )
+		),
+		tablet: (
+			containers: 1000px,
+			grid: ( gutters: (35px, 35px) )
+		),
+		mobile: (
+			containers: (100%, true),
+			grid: ( gutters: (10px, 10px) )
+		)
+	)
+));
+
 // Base.
 @import 'base/page';
 @import 'base/typography';
 
-// 2017用
-@import '2017/base';
+@import 'sharelink';
 
+// Base
+@import '2017/base/basic';
+@import '2017/base/button';
+@import '2017/base/form';
+@import '2017/base/image';
+@import '2017/base/list';
+@import '2017/base/section';
+@import '2017/base/table';
+@import '2017/base/icon';
 
-	@import "libs/skel";
-
-	@include skel-breakpoints((
-		desktop: '(min-width: 737px)',
-		tablet: '(min-width: 737px) and (max-width: 1200px)',
-		mobile: '(max-width: 736px)'
-	));
-
-	@include skel-layout((
-		reset: 'full',
-		boxModel: 'border',
-		grid: true,
-		conditionals: true,
-		containers: true,
-		breakpoints: (
-			desktop: (
-				containers: 1200px,
-				grid: ( gutters: (50px, 50px) )
-			),
-			tablet: (
-				containers: 1000px,
-				grid: ( gutters: (35px, 35px) )
-			),
-			mobile: (
-				containers: (100%, true),
-				grid: ( gutters: (10px, 10px) )
-			)
-		)
-	));
+// Component
+@import '2017/components/copyright';
+@import '2017/components/highlights';
+@import '2017/components/intro';
+@import '2017/components/sponsor';
 
 /* Basic */
 
@@ -148,114 +160,6 @@
 		margin-bottom: 2em;
 	}
 
-/* Table */
-
-	table {
-		width: 100%;
-
-		&.default {
-			width: 100%;
-
-			tbody {
-				tr:nth-child(2n+2) {
-					background: #f4f4f4;
-				}
-			}
-
-			td {
-				padding: 0.5em 1em 0.5em 1em;
-			}
-
-			th {
-				text-align: left;
-				font-weight: 400;
-				padding: 0.5em 1em 0.5em 1em;
-			}
-
-			thead {
-				background: #484d55;
-				color: #fff;
-			}
-
-			tfoot {
-				background: #eee;
-			}
-		}
-	}
-
-/* Form */
-
-	form {
-		label {
-			display: block;
-			font-weight: 700;
-			color: #484d55;
-		}
-
-		input[type="text"],
-		input[type="email"],
-		input[type="password"],
-		select,
-		textarea {
-			@include vendor('transition', 'all .25s ease-in-out');
-			-webkit-appearance: none;
-			display: block;
-			border: 0;
-			background: #eee;
-			box-shadow: inset 0px 0px 1px 0px #a0a1a7;
-			border-radius: 0.35em;
-			width: 100%;
-			padding: 0.75em 1em 0.75em 1em;
-
-			&:focus {
-				background: #f8f8f8;
-			}
-		}
-
-		input[type="text"],
-		input[type="email"]
-		input[type="password"] {
-			line-height: 1em;
-		}
-
-		select {
-			line-height: 1em;
-		}
-
-		textarea {
-			min-height: 10em;
-		}
-
-		.formerize-placeholder {
-			color: #555 !important;
-			font-style: italic;
-		}
-
-		::-webkit-input-placeholder {
-			color: #555 !important;
-			font-style: italic;
-			line-height: 1.35em;
-		}
-
-		:-moz-placeholder {
-			color: #555 !important;
-			font-style: italic;
-		}
-
-		::-moz-placeholder {
-			color: #555 !important;
-			font-style: italic;
-		}
-
-		:-ms-input-placeholder {
-			color: #555 !important;
-			font-style: italic;
-		}
-
-		::-moz-focus-inner {
-			border: 0;
-		}
-	}
 
 /* Section/Article */
 
@@ -282,43 +186,6 @@
 			p {
 				color: #b1b4b9;
 			}
-		}
-	}
-
-/* Image */
-
-	.image {
-		display: inline-block;
-
-		img {
-			display: block;
-			width: 100%;
-		}
-
-		&.fit {
-			display: block;
-			width: 100%;
-		}
-
-		&.left {
-			float: left;
-			margin: 0 2em 2em 0;
-		}
-
-		&.centered {
-			display: block;
-			margin: 0 0 2em 0;
-
-			img {
-				margin: 0 auto;
-				width: auto;
-			}
-		}
-
-		&.featured {
-			display: block;
-			width: 100%;
-			margin: 0 0 2em 0;
 		}
 	}
 
@@ -455,29 +322,6 @@
 			}
 		}
 	}
-
-/* Icons */
-
-	.icon {
-		text-decoration: none;
-
-		&:before {
-			display: inline-block;
-			font-family: FontAwesome;
-			font-size: 1.25em;
-			text-decoration: none;
-			font-style: normal;
-			font-weight: normal;
-			line-height: 1;
-			-webkit-font-smoothing: antialiased;
-			-moz-osx-font-smoothing: grayscale;
-		}
-
-		> .label {
-			display: none;
-		}
-	}
-
 /* Wrappers */
 
 	.wrapper {

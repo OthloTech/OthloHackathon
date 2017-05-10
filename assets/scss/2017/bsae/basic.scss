@@ -1,0 +1,45 @@
+
+
+strong, b {
+  font-weight: 700;
+  color: #484d55;
+}
+
+blockquote {
+  border-left: solid 0.5em #ddd;
+  padding: 1em 0 1em 2em;
+  font-style: italic;
+}
+
+em, i {
+  font-style: italic;
+}
+
+hr {
+  border: 0;
+  border-top: solid 1px #ddd;
+}
+
+sub {
+  position: relative;
+  top: 0.5em;
+  font-size: 0.8em;
+}
+
+sup {
+  position: relative;
+  top: -0.5em;
+  font-size: 0.8em;
+}
+
+.nobr {
+  white-space: nowrap;
+}
+
+br.clear {
+  clear: both;
+}
+
+p, ul, ol, dl, table, blockquote, form {
+  margin-bottom: 2em;
+}
