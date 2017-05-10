@@ -1,0 +1,12 @@
+#copyright {
+  text-align: center; }
+  #copyright ul {
+    display: inline-block;
+    border-radius: 0.35em;
+    box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.05);
+    color: #aaa;
+    color: rgba(255, 255, 255, 0.25); }
+  #copyright a {
+    color: inherit; }
+    #copyright a:hover {
+      color: #fff; }

@@ -1,0 +1,80 @@
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button,
+.button {
+  display: inline-block;
+  background: #444;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.25em;
+  text-decoration: none;
+  border-radius: 0.35em;
+  border: 0;
+  outline: 0;
+  cursor: pointer; }
+  input[type="button"]:hover,
+  input[type="submit"]:hover,
+  input[type="reset"]:hover,
+  button:hover,
+  .button:hover {
+    background-color: #f98780; }
+  input[type="button"].style1,
+  input[type="submit"].style1,
+  input[type="reset"].style1,
+  button.style1,
+  .button.style1 {
+    background: #e97770 url("images/overlay.png");
+    color: #fff; }
+    input[type="button"].style1:hover,
+    input[type="submit"].style1:hover,
+    input[type="reset"].style1:hover,
+    button.style1:hover,
+    .button.style1:hover {
+      background-color: #f98780; }
+    input[type="button"].style1:active,
+    input[type="submit"].style1:active,
+    input[type="reset"].style1:active,
+    button.style1:active,
+    .button.style1:active {
+      background-color: #d96760; }
+  input[type="button"].style2,
+  input[type="submit"].style2,
+  input[type="reset"].style2,
+  button.style2,
+  .button.style2 {
+    background: none;
+    color: #606167;
+    box-shadow: inset 0px 0px 2px 0px #a0a1a7; }
+    input[type="button"].style2:hover,
+    input[type="submit"].style2:hover,
+    input[type="reset"].style2:hover,
+    button.style2:hover,
+    .button.style2:hover {
+      box-shadow: inset 0px 0px 2px 0px #606167; }
+    input[type="button"].style2:active,
+    input[type="submit"].style2:active,
+    input[type="reset"].style2:active,
+    button.style2:active,
+    .button.style2:active {
+      box-shadow: inset 0px 0px 2px 0px #202127; }
+  input[type="button"].style3,
+  input[type="submit"].style3,
+  input[type="reset"].style3,
+  button.style3,
+  .button.style3 {
+    background: #2f333b url("images/overlay.png");
+    color: #fff; }
+    input[type="button"].style3:hover,
+    input[type="submit"].style3:hover,
+    input[type="reset"].style3:hover,
+    button.style3:hover,
+    .button.style3:hover {
+      background-color: #3f434b; }
+    input[type="button"].style3:active,
+    input[type="submit"].style3:active,
+    input[type="reset"].style3:active,
+    button.style3:active,
+    .button.style3:active {
+      background-color: #1f232b; }
