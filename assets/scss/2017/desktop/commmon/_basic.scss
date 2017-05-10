@@ -9,6 +9,8 @@ body, input, textarea, select {
 }
 
 body {
+  -webkit-text-size-adjust: 100%;
+
   &.is-loading * {
     -moz-transition: none !important;
     -webkit-transition: none !important;

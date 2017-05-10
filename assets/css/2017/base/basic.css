@@ -1,69 +1,39 @@
-@-ms-viewport {
-  width: device-width; }
+/* PC */
+@media screen and (max-width: 1280px) {
+  body, input, select, textarea {
+    font-size: 13pt;
+    line-height: 1.75em;
+    letter-spacing: 0.025em; }
+  body {
+    min-width: 1200px; }
+  hr {
+    margin: 2em 0 2em 0; } }
 
-body, input, textarea, select {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 400;
-  color: #919499; }
+/* Tablet */
+@media screen and (max-width: 1200px) and (min-width: 737px) {
+  body {
+    min-width: 1000px;
+    font-size: 12pt;
+    line-height: 1.5em;
+    letter-spacing: 0.015em; }
+  input, select, textarea {
+    font-size: 12pt;
+    line-height: 1.5em;
+    letter-spacing: 0.015em; }
+  body {
+    min-width: 960px; } }
 
-body.is-loading * {
-  -moz-transition: none !important;
-  -webkit-transition: none !important;
-  -ms-transition: none !important;
-  transition: none !important;
-  -moz-animation: none !important;
-  -webkit-animation: none !important;
-  -ms-animation: none !important;
-  animation: none !important; }
-
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 700;
-  color: #484d55; }
-  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-    color: inherit;
-    text-decoration: none; }
-
-a {
-  -moz-transition: color .25s ease-in-out;
-  -webkit-transition: color .25s ease-in-out;
-  -ms-transition: color .25s ease-in-out;
-  transition: color .25s ease-in-out;
-  text-decoration: underline;
-  color: #717479; }
-  a:hover {
-    text-decoration: none; }
-
-strong, b {
-  font-weight: 700;
-  color: #484d55; }
-
-blockquote {
-  border-left: solid 0.5em #ddd;
-  padding: 1em 0 1em 2em;
-  font-style: italic; }
-
-em, i {
-  font-style: italic; }
-
-hr {
-  border: 0;
-  border-top: solid 1px #ddd; }
-
-sub {
-  position: relative;
-  top: 0.5em;
-  font-size: 0.8em; }
-
-sup {
-  position: relative;
-  top: -0.5em;
-  font-size: 0.8em; }
-
-.nobr {
-  white-space: nowrap; }
-
-br.clear {
-  clear: both; }
-
-p, ul, ol, dl, table, blockquote, form {
-  margin-bottom: 2em; }
+/* Mobile */
+@media screen and (max-width: 736px) {
+  html, body {
+    overflow-x: hidden; }
+  body, input, select, textarea {
+    line-height: 1.5em;
+    font-size: 10.5pt;
+    letter-spacing: 0; }
+  h2, h3, h4, h5, h6 {
+    font-size: 1.2em;
+    letter-spacing: 0.05em;
+    margin: 0 0 1em 0; }
+  hr {
+    margin: 1em 0 1em 0; } }

@@ -40,24 +40,34 @@
 //
 @import 'sharelink';
 
-// // Base
-@import '2017/base/basic';
-@import '2017/base/button';
-@import '2017/base/form';
-@import '2017/base/image';
-@import '2017/base/list';
-@import '2017/base/section';
-@import '2017/base/table';
-@import '2017/base/icon';
+// Base
+@import '2017/desktop/commmon/base';
 
-// // Component
-@import '2017/components/copyright';
-@import '2017/components/highlights';
-@import '2017/components/intro';
-@import '2017/components/sponsor';
-@import '2017/components/contact';
-@import '2017/components/logo';
-@import '2017/components/wrapper';
+// Component
+@import '2017/desktop/components/base';
+
+
+
+/* PC */
+@media screen and (max-width: 1280px) {
+
+}
+
+/* Tablet */
+@media screen and (max-width: 1200px) and (min-width: 737px) {
+
+}
+
+/* Mobile */
+@media screen and (min-width: 737px) {
+
+}
+
+// @import '2017/components/copyright';
+// @import '2017/components/highlights';
+// @import '2017/components/intro';
+//@import '2017/components/sponsor';
+//@import '2017/components/contact';
 
 
 /* Feature List */
@@ -73,6 +83,179 @@
 				background: #2f333b url('images/overlay.png');
 				border-radius: 1em;
 				text-align: center;
+			}
+		}
+	}
+/* Wrappers */
+
+	.wrapper {
+		position: relative;
+
+		.title {
+			position: absolute;
+			top: 0;
+			left: 50%;
+			text-align: center;
+			text-transform: uppercase;
+			display: block;
+			font-weight: 700;
+			letter-spacing: 0.25em;
+
+			&:before {
+				content: '';
+				position: absolute;
+				bottom: -38px;
+				left: -35px;
+				width: 35px;
+				height: 38px;
+				background: url('images/shadow.png');
+			}
+
+			&:after {
+				@include vendor('transform', 'scaleX(-1)');
+				content: '';
+				position: absolute;
+				bottom: -38px;
+				right: -35px;
+				width: 35px;
+				height: 38px;
+				background: url('images/shadow.png');
+			}
+		}
+
+		&.style1 {
+			background: #e97770 url('images/overlay.png');
+			color: #eee;
+			color: rgba(255, 255, 255, 0.75);
+
+			.title {
+				background: #e97770 url('images/overlay.png');
+				color: #fff;
+			}
+
+			h1, h2, h3, h4, h5, h6, strong, b, a {
+				color: #fff;
+			}
+		}
+
+		&.style2 {
+			background: #fff;
+
+			.title {
+				background: #fff;
+				color: #484d55;
+			}
+		}
+
+		&.style3 {
+			background: #f3f3f3 url('images/overlay.png');
+
+			.title {
+				background: #f3f3f3 url('images/overlay.png');
+				color: #484d55;
+			}
+
+			.image {
+				border: solid 10px #fff;
+			}
+		}
+	}
+
+	#header-wrapper {
+		background: url('../../images/banner.jpg') center center;
+		background-size: cover;
+
+		&:before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: url('images/overlay.png');
+		}
+	}
+
+	#footer-wrapper {
+		background: #282b34 url('images/overlay.png');
+		color: #eee;
+		color: rgba(255, 255, 255, 0.5);
+
+		h1, h2, h3, h4, h5, h6, strong, b, a {
+			color: #fff;
+		}
+
+		hr {
+			border-top-color: #333;
+			border-top-color: rgba(255, 255, 255, 0.05);
+		}
+
+		form {
+			input[type="text"],
+			input[type="email"],
+			input[type="password"],
+			select,
+			textarea {
+				background: #ccc;
+				box-shadow: none;
+
+				&:focus {
+					background: #fff;
+				}
+			}
+		}
+
+		input[type="button"],
+		input[type="submit"],
+		input[type="reset"],
+		button,
+		.button {
+			color: #fff;
+			box-shadow: inset 0px 0px 2px 0px rgba(255, 255, 255, 0.5);
+
+			&:hover {
+				color: #fff;
+				box-shadow: inset 0px 0px 2px 0px rgba(255, 255, 255, 0.65);
+			}
+
+			&:active {
+				box-shadow: inset 0px 0px 2px 0px rgba(255, 255, 255, 0.75);
+			}
+
+			&.style2 {
+				&:active {
+					box-shadow: inset 0px 0px 2px 0px rgba(255, 255, 255, 0.75);
+				}
+			}
+		}
+
+		.title {
+			background: #282b34 url('images/overlay.png');
+			color: #eee;
+		}
+
+		header {
+			&.style1 {
+				h2 {
+					color: #fff;
+				}
+
+				.p {
+					color: inherit;
+				}
+			}
+		}
+
+		.feature-list {
+			section {
+				border-top-color: #333;
+				border-top-color: rgba(255, 255, 255, 0.05);
+			}
+
+			h3 {
+				&:before {
+					background: #3d4249 url('images/overlay.png');
+				}
 			}
 		}
 	}
@@ -1031,3 +1214,10 @@
 			}
 
 	}
+
+// Component
+// @import '2017/components/copyright';
+// @import '2017/components/highlights';
+// @import '2017/components/intro';
+// @import '2017/components/sponsor';
+// @import '2017/components/contact';

@@ -71,3 +71,39 @@ button, .button {
     input[type="reset"].style3:active,
     button.style3:active, .button.style3:active {
       background-color: #1f232b; }
+
+/* PC */
+@media screen and (max-width: 1280px) {
+  input[type="button"],
+  input[type="submit"],
+  input[type="reset"],
+  button,
+  .button {
+    padding: 0 2.25em 0 2.25em;
+    font-size: 0.9em;
+    min-width: 12em;
+    height: 4em;
+    line-height: 4em; }
+    input[type="button"].big,
+    input[type="submit"].big,
+    input[type="reset"].big,
+    button.big,
+    .button.big {
+      font-size: 1em;
+      min-width: 14em; } }
+
+/* Tablet */
+/* Mobile */
+@media screen and (max-width: 736px) {
+  input,
+  input[type="button"],
+  input[type="submit"],
+  input[type="reset"],
+  button,
+  .button {
+    display: block;
+    width: 100%;
+    font-size: 1em;
+    padding: 1em 0 1em 0;
+    max-width: 30em;
+    margin: 0 auto; } }
