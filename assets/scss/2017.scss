@@ -34,41 +34,13 @@
 	)
 ));
 
-// Base.
-// @import 'base/page';
-// @import 'base/typography';
-//
 @import 'sharelink';
 
 // Base
-@import '2017/desktop/commmon/base';
+@import '2017/commmon/base';
 
 // Component
-@import '2017/desktop/components/base';
-
-
-
-/* PC */
-@media screen and (max-width: 1280px) {
-
-}
-
-/* Tablet */
-@media screen and (max-width: 1200px) and (min-width: 737px) {
-
-}
-
-/* Mobile */
-@media screen and (min-width: 737px) {
-
-}
-
-// @import '2017/components/copyright';
-// @import '2017/components/highlights';
-// @import '2017/components/intro';
-//@import '2017/components/sponsor';
-//@import '2017/components/contact';
-
+@import '2017/components/base';
 
 /* Feature List */
 

@@ -1,0 +1,61 @@
+.sponsor-container .sponsor {
+  list-style: none;
+  padding: 0;
+  font-size: 0;
+  padding: 20px;
+  position: relative; }
+  .sponsor-container .sponsor li {
+    font-size: 1rem;
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
+    position: relative;
+    background-color: transparent;
+    margin: 0;
+    vertical-align: middle; }
+    .sponsor-container .sponsor li > img {
+      width: 100%;
+      height: auto;
+      vertical-align: middle;
+      text-align: center; }
+
+#nav {
+  display: none; }
+
+#intro {
+  text-align: center;
+  padding: 1em 2em 1em 2em !important;
+  margin: 0 auto; }
+  #intro .style2 {
+    font-size: 1.5em;
+    letter-spacing: 0.05em;
+    line-height: 1.25em;
+    padding: 1.25em; }
+
+#main {
+  padding: 1em 0 0 0; }
+
+.wrapper {
+  padding: 15px 15px 5em 15px; }
+  .wrapper .title {
+    font-size: 0.9em;
+    width: 18em;
+    height: 2.5em;
+    top: -2.5em;
+    line-height: 2.5em;
+    margin-bottom: -2.5em;
+    margin-left: -9em;
+    padding-top: 0.5em; }
+    .wrapper .title:before, .wrapper .title:after {
+      height: 15px;
+      bottom: -15px;
+      background-size: 100% 100%; }
+
+#header-wrapper {
+  padding: 6em 2em 6em 2em; }
+
+#footer-wrapper {
+  padding-top: 3em; }
+  #footer-wrapper .feature-list section {
+    border-top-color: #eee;
+    border-top-color: rgba(255, 255, 255, 0.05); }
