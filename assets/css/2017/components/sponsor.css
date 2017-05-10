@@ -1,0 +1,28 @@
+.sponsor-container .sponsor {
+  list-style: none;
+  padding: 0;
+  font-size: 0;
+  padding: 20px;
+  position: relative; }
+  .sponsor-container .sponsor li {
+    font-size: 1rem;
+    display: inline-block;
+    width: 33%;
+    position: relative;
+    background-color: transparent;
+    margin: 0;
+    padding: 15px;
+    vertical-align: middle; }
+    .sponsor-container .sponsor li > img {
+      width: 100%;
+      height: auto;
+      vertical-align: middle;
+      text-align: center; }
+  @media screen and (max-width: 800px) {
+    .sponsor-container .sponsor li {
+      width: 40%;
+      padding: 20px; } }
+  @media screen and (max-width: 435px) {
+    .sponsor-container .sponsor li {
+      width: 100%;
+      padding: 20px; } }
