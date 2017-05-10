@@ -59,88 +59,6 @@
 @import '2017/components/logo';
 @import '2017/components/wrapper';
 
-/* Basic */
-
-	@-ms-viewport {
-		width: device-width;
-	}
-
-	body, input, textarea, select {
-		font-family: 'Source Sans Pro', sans-serif;
-		font-weight: 400;
-		color: #919499;
-	}
-
-	body {
-		&.is-loading * {
-			@include vendor('transition', 'none !important');
-			@include vendor('animation', 'none !important');
-		}
-	}
-
-	h1, h2, h3, h4, h5, h6 {
-		font-weight: 700;
-		color: #484d55;
-
-		a {
-			color: inherit;
-			text-decoration: none;
-		}
-	}
-
-	a {
-		@include vendor('transition', 'color .25s ease-in-out');
-		text-decoration: underline;
-		color: #717479;
-
-		&:hover {
-			text-decoration: none;
-		}
-	}
-
-	strong, b {
-		font-weight: 700;
-		color: #484d55;
-	}
-
-	blockquote {
-		border-left: solid 0.5em #ddd;
-		padding: 1em 0 1em 2em;
-		font-style: italic;
-	}
-
-	em, i {
-		font-style: italic;
-	}
-
-	hr {
-		border: 0;
-		border-top: solid 1px #ddd;
-	}
-
-	sub {
-		position: relative;
-		top: 0.5em;
-		font-size: 0.8em;
-	}
-
-	sup {
-		position: relative;
-		top: -0.5em;
-		font-size: 0.8em;
-	}
-
-	.nobr {
-		white-space: nowrap;
-	}
-
-	br.clear {
-		clear: both;
-	}
-
-	p, ul, ol, dl, table, blockquote, form {
-		margin-bottom: 2em;
-	}
 
 /* Feature List */
 
@@ -1114,10 +1032,3 @@
 			}
 
 	}
-
-// Component
-// @import '2017/components/copyright';
-// @import '2017/components/highlights';
-// @import '2017/components/intro';
-// @import '2017/components/sponsor';
-// @import '2017/components/contact';
