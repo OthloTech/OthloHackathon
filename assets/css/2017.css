@@ -2772,8 +2772,8 @@ ol.default {
 
 #logo p {
   color: #eee;
-  color: rgba(255, 255, 255, 0.5);
-  text-transform: uppercase; }
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: none; }
 
 /* Intro */
 #intro > .style2 {
@@ -2954,10 +2954,10 @@ ol.default {
     font-size: 5em;
     letter-spacing: 0.1em; }
   #logo p {
-    margin: 1.25em 0 0 0;
+    margin: 2.5em 0 0 0;
     display: block;
     letter-spacing: 0.2em;
-    font-size: 0.9em; }
+    font-size: 1.1em; }
   /* Nav */
   #nav {
     position: absolute;
@@ -3352,14 +3352,14 @@ ol.default {
       border-top-color: rgba(255, 255, 255, 0.05); }
   /* Logo */
   #logo {
-    text-align: center; }
+    text-align: left; }
     #logo h1 {
       font-size: 2.5em;
       letter-spacing: 0.1em; }
     #logo p {
       margin: 1.25em 0 0 0;
       display: block;
-      letter-spacing: 0.2em;
+      letter-spacing: 0.15em;
       font-size: 0.9em; }
   /* Nav */
   #nav {
