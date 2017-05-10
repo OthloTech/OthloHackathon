@@ -1,9 +1,11 @@
 input[type="button"],
 input[type="submit"],
 input[type="reset"],
-button,
-.button {
-  //@include vendor('transition', 'all .25s ease-in-out');
+button, .button {
+  -moz-transition: all .25s ease-in-out;
+  -webkit-transition: all .25s ease-in-out;
+  -ms-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
   display: inline-block;
   background: #444;
   text-align: center;

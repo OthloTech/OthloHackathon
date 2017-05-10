@@ -1,0 +1,9 @@
+#logo h1 {
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #fff; }
+
+#logo p {
+  color: #eee;
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase; }
