@@ -1,0 +1,16 @@
+section,
+article {
+  margin-bottom: 3em; }
+
+section > :last-child,
+article > :last-child,
+section:last-child,
+article:last-child {
+  margin-bottom: 0; }
+
+header.style1 {
+  text-align: center; }
+  header.style1 h2 {
+    font-weight: 700; }
+  header.style1 p {
+    color: #b1b4b9; }

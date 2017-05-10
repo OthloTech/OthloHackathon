@@ -3,7 +3,7 @@ input[type="submit"],
 input[type="reset"],
 button,
 .button {
-  @include vendor('transition', 'all .25s ease-in-out');
+  //@include vendor('transition', 'all .25s ease-in-out');
   display: inline-block;
   background: #444;
   text-align: center;

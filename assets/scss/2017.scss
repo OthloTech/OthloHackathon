@@ -1,11 +1,11 @@
-@import 'libs/vars';
-@import 'libs/functions';
-@import 'libs/mixins';
-@import 'libs/skel';
-
+@import '2017/libs/vars';
+@import '2017/libs/functions';
+@import '2017/libs/mixins';
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,900');
 @import url('font-awesome.min.css');
+
+@import '2017/libs/skel';
 
 @include skel-breakpoints((
 	xlarge: '(max-width: 1680px)',
@@ -56,12 +56,12 @@
 ));
 
 // Base.
-@import 'base/page';
-@import 'base/typography';
-
+// @import 'base/page';
+// @import 'base/typography';
+//
 @import 'sharelink';
-
-// Base
+//
+// // Base
 @import '2017/base/basic';
 @import '2017/base/button';
 @import '2017/base/form';
@@ -1518,8 +1518,8 @@
 	}
 
 // Component
-@import '2017/components/copyright';
-@import '2017/components/highlights';
-@import '2017/components/intro';
-@import '2017/components/sponsor';
-@import '2017/components/contact';
+// @import '2017/components/copyright';
+// @import '2017/components/highlights';
+// @import '2017/components/intro';
+// @import '2017/components/sponsor';
+// @import '2017/components/contact';

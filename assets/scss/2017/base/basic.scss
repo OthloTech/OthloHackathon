@@ -1,39 +1,39 @@
-@-ms-viewport {
-  width: device-width;
-}
-
-body, input, textarea, select {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 400;
-  color: #919499;
-}
-
-body {
-  &.is-loading * {
-    @include vendor('transition', 'none !important');
-    @include vendor('animation', 'none !important');
-  }
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 700;
-  color: #484d55;
-
-  a {
-    color: inherit;
-    text-decoration: none;
-  }
-}
-
-a {
-  @include vendor('transition', 'color .25s ease-in-out');
-  text-decoration: underline;
-  color: #717479;
-
-  &:hover {
-    text-decoration: none;
-  }
-}
+// @-ms-viewport {
+//   width: device-width;
+// }
+//
+// body, input, textarea, select {
+//   font-family: 'Source Sans Pro', sans-serif;
+//   font-weight: 400;
+//   color: #919499;
+// }
+//
+// body {
+//   &.is-loading * {
+//     @include vendor('transition', 'none !important');
+//     @include vendor('animation', 'none !important');
+//   }
+// }
+//
+// h1, h2, h3, h4, h5, h6 {
+//   font-weight: 700;
+//   color: #484d55;
+//
+//   a {
+//     color: inherit;
+//     text-decoration: none;
+//   }
+// }
+//
+// a {
+//   @include vendor('transition', 'color .25s ease-in-out');
+//   text-decoration: underline;
+//   color: #717479;
+//
+//   &:hover {
+//     text-decoration: none;
+//   }
+// }
 
 strong, b {
   font-weight: 700;
