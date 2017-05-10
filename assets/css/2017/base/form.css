@@ -57,3 +57,11 @@ form :-ms-input-placeholder {
 
 form ::-moz-focus-inner {
   border: 0; }
+
+/* PC */
+@media screen and (max-width: 1280px) {
+  form label {
+    margin: 0.25em 0 0.5em 0; } }
+
+/* Tablet */
+/* Mobile */
