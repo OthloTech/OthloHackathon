@@ -2692,7 +2692,7 @@ ol.default {
       border: solid 10px #fff; }
 
 #header-wrapper {
-  background: url("../../images/banner.jpg") center center;
+  background: linear-gradient(to top, rgba(150, 59, 100, 0.15), rgba(150, 59, 100, 0.15)),url("../../images/banner.jpg") center center;
   background-size: cover; }
   #header-wrapper:before {
     content: '';
