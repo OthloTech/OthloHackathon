@@ -1285,6 +1285,14 @@ table {
       height: auto;
       vertical-align: middle;
       text-align: center; }
+  @media screen and (max-width: 800px) {
+    .sponsor-container .sponsor li {
+      width: 40%;
+      padding: 20px; } }
+  @media screen and (max-width: 435px) {
+    .sponsor-container .sponsor li {
+      width: 100%;
+      padding: 20px; } }
 
 .contact .sns {
   margin-bottom: 0;
@@ -1456,7 +1464,6 @@ table {
     border-radius: 1em;
     text-align: center; }
 
-/* Wrappers */
 /* Desktop + Tablet */
 @media screen and (min-width: 737px) {
   /* Basic */
