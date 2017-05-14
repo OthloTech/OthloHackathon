@@ -27,3 +27,29 @@ ol.default {
   padding-left: 1.25em; }
   ol.default li {
     padding-left: 0.25em; }
+
+/* PC */
+@media screen and (max-width: 1280px) {
+  ul.actions {
+    margin: 3em 0 0 0; }
+    ul.actions li {
+      display: inline-block;
+      margin: 0 0.75em 0 0.75em; }
+      ul.actions li:first-child {
+        margin-left: 0; }
+      ul.actions li:last-child {
+        margin-right: 0; }
+  ul.actions-centered {
+    text-align: center; }
+  form ul.actions {
+    margin-top: 0; } }
+
+/* Tablet */
+/* Mobile */
+@media screen and (max-width: 736px) {
+  ul.actions {
+    margin: 2em 0 0 0; }
+    ul.actions li {
+      margin: 15px 0 0 0; }
+  form ul.actions {
+    margin: 1em 0 0 0; } }

@@ -23,19 +23,5 @@
         text-align: center;
       }
     }
-
-    @media screen and (max-width: 800px) {
-      li {
-        width: 40%;
-        padding: 20px;
-      }
-    }
-
-    @media screen and (max-width: 435px) {
-      li {
-        width: 100%;
-        padding: 20px;
-      }
-    }
   }
 }
