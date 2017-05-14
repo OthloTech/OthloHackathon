@@ -1078,6 +1078,16 @@ button, .button {
     button.style3:active, .button.style3:active {
       background-color: #1f232b; }
 
+.feature-list h3 {
+  color: #e97770 !important; }
+  .feature-list h3:before {
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    background: #2f333b url("images/overlay.png");
+    border-radius: 1em;
+    text-align: center; }
+
 form label {
   display: block;
   font-weight: 700;
@@ -1447,9 +1457,6 @@ table {
   #footer-wrapper .feature-list h3:before {
     background: #3d4249 url("images/overlay.png"); }
 
-/* PC */
-/* Tablet */
-/* Mobile */
 /* Feature List */
 .feature-list h3 {
   color: #e97770 !important; }
