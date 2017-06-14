@@ -8,7 +8,7 @@
     "node-sass": "^3.7.0"
   },
   "scripts": {
-    "watch": "npm run build; npm run watch-scss & npm run server",
+    "start": "npm run build; npm run watch-scss & npm run server",
     "build": "node-sass ./assets/scss --output ./assets/css",
     "watch-scss": "node-sass ./assets/scss --output ./assets/css -w",
     "server": "python3 -m http.server 8080"
