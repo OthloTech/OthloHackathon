@@ -11,7 +11,7 @@
     "watch": "npm run build; npm run watch-scss & npm run server",
     "build": "node-sass ./assets/scss --output ./assets/css",
     "watch-scss": "node-sass ./assets/scss --output ./assets/css -w",
-    "server": "python -m SimpleHTTPServer 8080"
+    "server": "python3 -m http.server 8080"
   },
   "repository": {
     "type": "git",
