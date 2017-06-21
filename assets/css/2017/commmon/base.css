@@ -150,7 +150,6 @@ button, .button {
     position: relative;
     display: inline-block;
     color: #fff;
-    background: #2f333b url("images/overlay.png");
     border-radius: 1em;
     text-align: center; }
 
@@ -325,3 +324,20 @@ table {
       color: #fff; }
     table.default tfoot {
       background: #eee; }
+
+.align-left {
+  text-align: left; }
+
+.align-center {
+  text-align: center; }
+
+.align-right {
+  text-align: right; }
+
+.titillium-light {
+  font-family: 'Titillium Web';
+  font-weight: 300; }
+
+.titillium-bold {
+  font-family: 'Titillium Web';
+  font-weight: 700; }
