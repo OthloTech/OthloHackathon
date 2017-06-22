@@ -74,7 +74,7 @@
 	}
 }
 
-#header {
+#header-wrapper {
 	background: url('../../images/banner.jpg') center center;
 	background-size: cover;
   position: relative;
@@ -96,7 +96,6 @@
     -o-filter: blur(3px);
     -ms-filter: blur(3px);
   	filter: blur(3px);
-  	position: absolute;
 	}
 }
 

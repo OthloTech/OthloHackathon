@@ -115,13 +115,13 @@
   .wrapper.style3 .image {
     border: solid 10px #fff; }
 
-#header {
+#header-wrapper {
   background: url("../../images/banner.jpg") center center;
   background-size: cover;
   position: relative;
   z-index: 0;
   overflow: hidden; }
-  #header:before {
+  #header-wrapper:before {
     content: '';
     position: absolute;
     top: 0;
@@ -134,8 +134,7 @@
     -moz-filter: blur(3px);
     -o-filter: blur(3px);
     -ms-filter: blur(3px);
-    filter: blur(3px);
-    position: absolute; }
+    filter: blur(3px); }
 
 #footer-wrapper {
   color: #eee;
