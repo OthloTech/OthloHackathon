@@ -163,6 +163,21 @@
 
 	});
 
+  var offset = -10;
+  var time = 500;
+	// クリック時にスクロール
+	$('a[href^=#]').click(function() {
+		var target = $(this.hash);
+		console.log(target)
+		if (!target.length) return;
+		var targetY = target.offset().top + offsetY;
+		$('html,body').animate({
+			scrollTop: targetY
+		}, time, 'swing')
+		window.history.pushState(null, null, this.hash);
+		return false;
+	})
+
 	// Google Mapsの設定
 	function initGmap() {
 		var latlng = new google.maps.LatLng(35.1879723,136.9437694);
