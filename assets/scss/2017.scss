@@ -68,7 +68,7 @@
 			top: 0;
 			left: 50%;
 			text-align: center;
-			text-transform: uppercase;
+			text-transform: none;
 			display: block;
 			font-weight: 700;
 			letter-spacing: 0.25em;
@@ -529,7 +529,7 @@
 							display: block;
 							color: #eee;
 							color: rgba(255, 255, 255, 0.75);
-							text-transform: uppercase;
+							text-transform: none;
 							text-decoration: none;
 							font-size: 0.7em;
 							letter-spacing: 0.25em;
@@ -581,7 +581,7 @@
 					display: block;
 					color: #eee;
 					color: rgba(255, 255, 255, 0.75);
-					text-transform: uppercase;
+					text-transform: none;
 					text-decoration: none;
 					font-size: 0.7em;
 					letter-spacing: 0.25em;
@@ -1009,7 +1009,7 @@
 				.link {
 					display: block;
 					color: rgba(255, 255, 255, 0.5);
-					text-transform: uppercase;
+					text-transform: none;
 					text-decoration: none;
 					font-size: 0.85em;
 					letter-spacing: 0.15em;
@@ -1136,7 +1136,7 @@
 
 			#intro {
 				text-align: center;
-				padding: 1em 2em 1em 2em !important;
+				// padding: 1em 2em 1em 2em !important;
 				margin: 0 auto;
 
 				.style2 {

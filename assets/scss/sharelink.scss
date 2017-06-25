@@ -140,8 +140,10 @@
 @media screen and (max-width: 479px) {
   #share li {
       float:left;
-      width:45%;
+      width:50%;
       margin:0 4% 5% 0;
+      margin: 0;
+      padding: 1em;
   }
   #share li:nth-child(4n) {
       margin-right:0;
