@@ -940,7 +940,9 @@ body {
 body, input, textarea, select {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
-  color: #919499; }
+  color: #333333;
+  line-height: 2;
+  font-size: 1em; }
 
 body {
   -webkit-text-size-adjust: 100%; }
@@ -1218,8 +1220,8 @@ ol.default {
 
 #logo h1 {
   font-weight: 900;
-  text-transform: uppercase;
-  color: #fff; }
+  color: #fff;
+  text-transform: none; }
 
 #logo p {
   color: #eee;
@@ -1665,7 +1667,7 @@ table {
   /* Basic */
   body, input, select, textarea {
     font-size: 13pt;
-    line-height: 1.75em;
+    line-height: 2em;
     letter-spacing: 0.025em; }
   body {
     min-width: 1200px; }
@@ -1679,13 +1681,13 @@ table {
     header.style1 h2 {
       font-size: 2em;
       letter-spacing: 0.075em;
-      line-height: 1.5em; }
+      line-height: 2em; }
     header.style1 p {
       display: block;
       margin: 1.15em 0 0 0;
       font-size: 1.3em;
       letter-spacing: 0.075em;
-      line-height: 1.5em; }
+      line-height: 2em; }
   /* Form */
   form label {
     margin: 0.25em 0 0.5em 0; }
@@ -1948,11 +1950,11 @@ table {
   body {
     min-width: 1000px;
     font-size: 12pt;
-    line-height: 1.5em;
+    line-height: 2em;
     letter-spacing: 0.015em; }
   input, select, textarea {
     font-size: 12pt;
-    line-height: 1.5em;
+    line-height: 2em;
     letter-spacing: 0.015em; }
   body {
     min-width: 960px; }
@@ -1991,7 +1993,7 @@ table {
   html, body {
     overflow-x: hidden; }
   body, input, select, textarea {
-    line-height: 1.5em;
+    line-height: 2em;
     font-size: 10.5pt;
     letter-spacing: 0; }
   h2, h3, h4, h5, h6 {
@@ -2209,8 +2211,7 @@ table {
   #logo {
     text-align: center; }
     #logo h1 {
-      font-size: 1.5em;
-      letter-spacing: 0.2em; }
+      font-size: 1.5em; }
     #logo p {
       margin: 1.25em 0 0 0;
       display: block;
@@ -2288,7 +2289,9 @@ table {
 #schedule {
   width: 850px;
   overflow: hidden;
-  margin: 0 auto; }
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap; }
   #schedule h3 {
     text-align: center;
     font-weight: bold;

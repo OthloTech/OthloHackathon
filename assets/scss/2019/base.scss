@@ -45,6 +45,8 @@
 	width: 850px;
   overflow: hidden;
   margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
 
   h3 {
     text-align: center;

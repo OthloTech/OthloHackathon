@@ -1,10 +1,10 @@
-@import '2017/libs/vars';
-@import '2017/libs/functions';
-@import '2017/libs/mixins';
+@import '2019/libs/vars';
+@import '2019/libs/functions';
+@import '2019/libs/mixins';
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,900');
 @import url('font-awesome.min.css');
-@import '2017/libs/skel';
+@import '2019/libs/skel';
 
 @include skel-breakpoints((
 	desktop: '(min-width: 737px)',
@@ -37,10 +37,10 @@
 @import 'sharelink';
 
 // Base
-@import '2017/commmon/base';
+@import '2019/commmon/base';
 
 // Component
-@import '2017/components/base';
+@import '2019/components/base';
 
 /* Feature List */
 
@@ -249,7 +249,8 @@
 
 			body, input, select, textarea {
 				font-size: 13pt;
-				line-height: 1.75em;
+				// line-height: 1.75em;
+				line-height: 2em;
 				letter-spacing: 0.025em;
 			}
 
@@ -274,7 +275,7 @@
 					h2 {
 						font-size: 2em;
 						letter-spacing: 0.075em;
-						line-height: 1.5em;
+						line-height: 2em;
 					}
 
 					p {
@@ -282,7 +283,8 @@
 						margin: 1.15em 0 0 0;
 						font-size: 1.3em;
 						letter-spacing: 0.075em;
-						line-height: 1.5em;
+						// line-height: 1.5em;
+						line-height: 2em;
 					}
 				}
 			}
@@ -718,13 +720,13 @@
 			body {
 				min-width: 1000px;
 				font-size: 12pt;
-				line-height: 1.5em;
+				line-height: 2em;
 				letter-spacing: 0.015em;
 			}
 
 			input, select, textarea {
 				font-size: 12pt;
-				line-height: 1.5em;
+				line-height: 2em;
 				letter-spacing: 0.015em;
 			}
 
@@ -803,7 +805,7 @@
 			}
 
 			body, input, select, textarea {
-				line-height: 1.5em;
+				line-height: 2em;
 				font-size: 10.5pt;
 				letter-spacing: 0;
 			}
@@ -1115,7 +1117,7 @@
 
 				h1 {
 					font-size: 1.5em;
-					letter-spacing: 0.2em;
+					// letter-spacing: 0.2em;
 				}
 
 				p {
@@ -1195,11 +1197,11 @@
 
 	}
 
-@import '2017/base';
+@import '2019/base';
 
 // Component
-// @import '2017/components/copyright';
-// @import '2017/components/highlights';
-// @import '2017/components/intro';
-// @import '2017/components/sponsor';
-// @import '2017/components/contact';
+// @import '2019/components/copyright';
+// @import '2019/components/highlights';
+// @import '2019/components/intro';
+// @import '2019/components/sponsor';
+// @import '2019/components/contact';

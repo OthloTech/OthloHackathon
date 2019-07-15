@@ -35,7 +35,9 @@
 #schedule {
   width: 850px;
   overflow: hidden;
-  margin: 0 auto; }
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap; }
   #schedule h3 {
     text-align: center;
     font-weight: bold;
