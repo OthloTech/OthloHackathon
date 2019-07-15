@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  othlohack_LP:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: node12.6:othlohack_LP
+    container_name: othlohack_LP
+    tty: true
+    ports:
+      - "8080:8080"
+    volumes:
+    - ./:/OthloHack
+    - othlohack_LP_volume:/OthloHack/node_modules
+volumes:
+  othlohack_LP_volume:
