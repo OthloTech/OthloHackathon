@@ -1,0 +1,14 @@
+.feature-list {
+  h3 {
+    color: #e97770 !important;
+
+    &:before {
+      position: relative;
+      display: inline-block;
+      color: #fff;
+      // background: #2f333b url('images/overlay.png');
+      border-radius: 1em;
+      text-align: center;
+    }
+  }
+}

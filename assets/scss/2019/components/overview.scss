@@ -1,0 +1,44 @@
+.overview {
+  padding-top: 20px;
+  overflow: hidden;
+
+  ul {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    li {
+      display: inline-block;
+      vertical-align: middle;
+      min-width: 190px;
+      width: 30%;
+      padding: 0;
+
+      h2 {
+        font-size: 18px;
+        margin-bottom: 35px;
+        letter-spacing: 0.6em;
+        text-align: center;
+        color: #029cff;
+        font-weight:bold;
+        padding:3px 0;
+        min-height:1.5em;
+      }
+      h3 {
+        position: relative;
+        top: -0.25em;
+        font-size: 24px;
+        height: 75px;
+        display: table;
+        line-height: 1.5;
+        min-width: 100%;
+        margin-bottom: 1em;
+      }
+
+      .red {
+        color: #d32f2f;
+      }
+    }
+  }
+}
