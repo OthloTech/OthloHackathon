@@ -1,4 +1,4 @@
-FROM node
+FROM node:12.6
 
 RUN apt-get update && apt-get install python3
 
