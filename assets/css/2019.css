@@ -2193,18 +2193,6 @@ table {
     margin-bottom: 30px;
     padding: 15px;
     vertical-align: middle; }
-    @media screen and (max-width: 980px) {
-      .sponsor-container .sponsor li {
-        width: 45%;
-        height: 260px;
-        padding: 10px;
-        margin: 0; } }
-    @media screen and (max-width: 736px) {
-      .sponsor-container .sponsor li {
-        width: 90%;
-        margin: 0 auto;
-        padding: 10px;
-        height: 260px; } }
     .sponsor-container .sponsor li > img {
       width: 100%;
       height: auto;
@@ -2214,38 +2202,34 @@ table {
 .sponsor-container .sponsor-gold li {
   width: 33%;
   padding: 15px; }
-
-@media screen and (max-width: 980px) {
-  .sponsor-container .sponsor-gold {
-    width: 45%;
-    height: 260px;
-    padding: 10px;
-    margin: 0; } }
-
-@media screen and (max-width: 736px) {
-  .sponsor-container .sponsor-gold {
-    width: 90%;
-    margin: 0 auto;
-    padding: 10px;
-    height: 260px; } }
+  @media screen and (max-width: 980px) {
+    .sponsor-container .sponsor-gold li {
+      width: 45%;
+      height: 260px;
+      padding: 10px;
+      margin: 0; } }
+  @media screen and (max-width: 736px) {
+    .sponsor-container .sponsor-gold li {
+      width: 90%;
+      margin: 0 auto;
+      padding: 10px;
+      height: 260px; } }
 
 .sponsor-container .sponsor-silver li {
   width: 25%;
   padding: 15px; }
-
-@media screen and (max-width: 980px) {
-  .sponsor-container .sponsor-silver {
-    width: 33%;
-    height: 260px;
-    padding: 10px;
-    margin: 0; } }
-
-@media screen and (max-width: 736px) {
-  .sponsor-container .sponsor-silver {
-    width: 45%;
-    margin: 0 auto;
-    padding: 10px;
-    height: 260px; } }
+  @media screen and (max-width: 980px) {
+    .sponsor-container .sponsor-silver li {
+      width: 33%;
+      height: 260px;
+      padding: 10px;
+      margin: 0; } }
+  @media screen and (max-width: 736px) {
+    .sponsor-container .sponsor-silver li {
+      width: 45%;
+      margin: 0 auto;
+      padding: 10px;
+      height: 260px; } }
 
 #schedule {
   width: 850px;
