@@ -10,7 +10,7 @@
 tablet: '(min-width: 737px) and (max-width: 1200px)',
 mobile: '(max-width: 736px)'));
 
-@include skel-layout(( reset: 'full',
+@include skel-layout(( reset: 'normalize',
 boxModel: 'border',
 grid: true,
 conditionals: true,
@@ -262,7 +262,8 @@ grid: ( gutters: (10px, 10px))))));
     }
 
     body {
-        min-width: 1200px;
+        width: 100%;
+        // min-width: 1200px;
     }
 
     hr {
@@ -715,7 +716,7 @@ grid: ( gutters: (10px, 10px))))));
 
     /* Basic */
     body {
-        min-width: 1000px;
+        // min-width: 1000px;
         font-size: 12pt;
         line-height: 2em;
         letter-spacing: 0.015em;
@@ -730,8 +731,12 @@ grid: ( gutters: (10px, 10px))))));
     }
 
     body {
-        min-width: 960px;
+        width: 100%;
     }
+
+    // body {
+    //     min-width: 960px;
+    // }
 
     /* Wrappers */
     .wrapper {
