@@ -1,57 +1,50 @@
 .sponsor-container .sponsor {
   list-style: none;
+  width: 100%;
   margin-bottom: 4rem;
   padding: 0;
-  font-size: 0;
-  padding: 20px;
-  position: relative; }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  overflow: hidden; }
   .sponsor-container .sponsor li {
+    width: 100%;
     font-size: 1rem;
     display: inline-block;
-    width: 33%;
-    position: relative;
     background-color: transparent;
-    margin: 0;
     margin-bottom: 30px;
-    padding: 15px;
-    vertical-align: middle; }
+    padding: 15px; }
     .sponsor-container .sponsor li > img {
       width: 100%;
       height: auto;
       vertical-align: middle;
       text-align: center; }
+  .sponsor-container .sponsor a {
+    animation-duration: 2s; }
 
-.sponsor-container .sponsor-gold li {
+.sponsor-container .sponsor-gold a {
   width: 33%;
-  padding: 15px; }
+  animation-duration: 2s; }
   @media screen and (max-width: 980px) {
-    .sponsor-container .sponsor-gold li {
-      width: 45%;
-      height: 260px;
-      padding: 10px;
+    .sponsor-container .sponsor-gold a {
+      width: 50%;
       margin: 0; } }
   @media screen and (max-width: 736px) {
-    .sponsor-container .sponsor-gold li {
-      width: 90%;
-      margin: 0 auto;
-      padding: 10px;
-      height: 260px; } }
+    .sponsor-container .sponsor-gold a {
+      width: 100%;
+      margin: 0 auto; } }
 
-.sponsor-container .sponsor-silver li {
-  width: 25%;
-  padding: 15px; }
+.sponsor-container .sponsor-silver a,
+.sponsor-container .sponsor-inkind a {
+  width: 25%; }
   @media screen and (max-width: 980px) {
-    .sponsor-container .sponsor-silver li {
-      width: 33%;
-      height: 260px;
-      padding: 10px;
-      margin: 0; } }
+    .sponsor-container .sponsor-silver a,
+    .sponsor-container .sponsor-inkind a {
+      width: 33%; } }
   @media screen and (max-width: 736px) {
-    .sponsor-container .sponsor-silver li {
-      width: 45%;
-      margin: 0 auto;
-      padding: 10px;
-      height: 260px; } }
+    .sponsor-container .sponsor-silver a,
+    .sponsor-container .sponsor-inkind a {
+      width: 50%; } }
 
 #schedule {
   width: 850px;
